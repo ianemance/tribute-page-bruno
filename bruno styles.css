@@ -1,0 +1,121 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    #landing {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url('https://e0.365dm.com/22/03/2048x1152/skysports-bruno-fernandes-man-utd_5724299.png?20220331111931');
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        color: white;
+        overflow: hidden;
+        font-family: 'Krona One', sans-serif;
+    }
+
+    #landing::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+    }
+
+    .main-title,
+    .subtitle {
+        position: relative;
+        z-index: 2;
+    }
+
+    .main-title {
+        position: relative;
+        z-index: 2;
+        font-size: 7em;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+    }
+
+    .subtitle {
+        position: relative;
+        z-index: 2;
+        font-size: 2em;
+        font-family: franklin Gothic, sans-serif;
+        margin-bottom: 20px;
+    }
+
+    #main {
+        padding: 40px 20px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    #img-div {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    #image {
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    #img-caption {
+        font-style: italic;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    #tribute-info {
+        margin-top: 30px;
+        text-align: justify;
+    }
+
+    #button-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #tribute-link {
+        display: inline-block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #c70101;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    #tribute-link:hover {
+        background-color: #000000;
+    }
+
+    #tribute-heading {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
